@@ -1,9 +1,3 @@
-#ifndef IMAGE_H
-#define IMAGE_H
-
-#include <stddef.h>
-#include <stdint.h>
-
 /**
  * @file image.h
  * @brief Abstract image data structure and basic operations.
@@ -12,6 +6,12 @@
  * No assumptions are made about color space, pixel format,
  * or human-visibility of the data.
  */
+
+#ifndef IMAGE_H
+#define IMAGE_H
+
+#include <stddef.h>
+#include <stdint.h>
 
 /**
  * @struct image
