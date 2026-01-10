@@ -59,5 +59,4 @@ dkms.conf
 
 # doxygen
 Doxyfile
-html/
-latex/
+Doxyfile.bak
